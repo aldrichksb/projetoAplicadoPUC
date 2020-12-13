@@ -1,20 +1,13 @@
 {
-  "alunos":
-    {
-      "cpfAluno": 1,
-      "nomeAluno": "aluno admin",
-      "endereco": "endereco a",
-      "estado": "MG",
-      "municipio": "Belo Horizonte",
-      "telefone": "555",
-      "email": "email@email.com.br",
-      "senha": "admin",
-      "tipoAluno": "ADMINISTRADOR"
-    },
-  "cursos":
-    {
-      "codigoCurso": 1,
-      "nomeCurso": "historia",
-      "anoSemestre": "2020"
-    }
+  "Post": {
+    "title": "string",
+    "views": "int",
+    "published": "boolean",
+    "createdAt": "date",
+    "comments": "Comment[]"
+  },
+  "Comment": {
+    "body": "string",
+    "post": "Post"
+  }
 }
