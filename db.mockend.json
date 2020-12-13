@@ -3,6 +3,10 @@
     {
       "cpfAluno": 1,
       "nomeAluno": "aluno admin",
+      "endereco": "endereco a",
+      "estado": "MG",
+      "municipio": "Belo Horizonte",
+      "telefone": "555",
       "email": "email@email.com.br",
       "senha": "admin",
       "tipoAluno": "ADMINISTRADOR"
@@ -10,6 +14,10 @@
     {
       "cpfAluno": 2,
       "nomeAluno": "aluno comum",
+      "endereco": "endereco a",
+      "estado": "MG",
+      "municipio": "Belo Horizonte",
+      "telefone": "555",
       "email": "email@email.com.br",
       "senha": "123456",
       "tipoAluno": "COMUM"
@@ -72,5 +80,8 @@
       "nota": 60,
       "codigoAvaliacao": 1
     }
-  ]
+  ],
+  "profile": {
+    "name": "projetoAplicado"
+  }
 }
